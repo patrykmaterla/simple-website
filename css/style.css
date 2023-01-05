@@ -1,9 +1,9 @@
-body{
+body {
 	background-color: #222f3e;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
-#container{
+#container {
 	background-color: #111e2d;
 	width: 1000px;
 	min-height: 720px;
@@ -11,26 +11,25 @@ body{
 	margin-right: auto;
 }
 
-#logo{
+#logo {
 	background-color: #111e2d;
 	width: 335px;
 	height: 100px;
 	float: left;
 	border-right: 15px solid #16a085;
-	
+	text-align: center;
 }
 
 #logo h1 {
 	color: #16a085;
 	margin-top: 20px;
-	text-indent: 35px;
-	text-transform:uppercase;
+	text-indent: -15px;
+	text-transform: uppercase;
 	font-size: 40px;
 	padding-top: 5px;
-	
 }
 
-.ll {
+#logo h1 span {
 	color: #ffffff;
 	font-size: 30px;
 }
@@ -54,7 +53,7 @@ body{
 	border-right: 2px dotted #36c285;
 	margin-top: 20px;
 	padding-left: 30px;
-	padding-righ: 30px;
+	padding-right: 30px;
 	font-weight: 500;
 }
 
@@ -69,11 +68,8 @@ body{
 
 a {
 	color: #ffffff;
-	text-decoration: none; 
-	
+	text-decoration: none;
 }
-
-
 
 #header {
 	background-color: #16a085;
@@ -85,6 +81,7 @@ a {
 	margin-top: 20px;
 	font-weight: 600;
 	text-indent: 23px;
+	text-transform: capitalize;
 }
 
 #little {
@@ -111,7 +108,6 @@ a {
 	margin-left: 20px;
 	box-shadow: 0px 0px 2px #363636;
 	border: none;
-	
 }
 
 #rectangle {
@@ -132,15 +128,12 @@ a {
 	text-align: justify;
 }
 
-
-
 .title {
 	font-weight: 600;
 	margin-bottom: 15px;
 	display: block;
 	text-indent: 0px;
 	font-size: 20px;
-	
 }
 
 #rectangle ul {
@@ -165,36 +158,22 @@ a {
 	background-color: #f1f2f6;
 	height: 80px;
 	display: flex;
-    align-items: center;
+	align-items: center;
 	border-right: 15px solid #16a085;
 	padding-left: 10px;
 }
-
 
 #button label {
 	color: #27b196;
 	font-weight: 800;
 	font-size: 40px;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	display: flex;
-    align-items: center;
+	align-items: center;
 	height: 80px;
 }
 
-/*
-#button:hover {
-	cursor: pointer;
-	border-right: 15px solid #cf6a87;
-}
-*/
-
-/*
-#button label:hover {
-	cursor: pointer;
-}
-*/
-
-#button input[type=checkbox] {
+#button input[type="checkbox"] {
 	position: absolute;
 	left: ;
 	opacity: 0;
@@ -210,10 +189,9 @@ a {
 	cursor: pointer;
 }
 
-#button label input[type=checkbox]:checked + .icon-heart  {
+#button label input[type="checkbox"]:checked + .icon-heart {
 	filter: hue-rotate(150deg);
 	color: red !important;
-
 }
 
 .container {
@@ -328,7 +306,7 @@ a {
 	border-bottom: 3px solid #16a085;
 	font-size: 15px;
 	text-indent: 5px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	color: #363636;
 }
 
@@ -344,7 +322,7 @@ a {
 	text-indent: 5px;
 	font-size: 20px;
 	font-weight: 400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 #submit:hover {
@@ -392,12 +370,10 @@ a {
 	margin-right: 40px;
 	margin-bottom: 40px;
 	margin-left: 40px;
-	
 }
 
-
 #about-me-text-container {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	background-color: #d2dae2;
 	width: 450px;
 	height: 300px;
@@ -406,7 +382,6 @@ a {
 	margin-bottom: 0px;
 	margin-left: 15px;
 	float: left;
-	
 }
 
 #about-me-text-container h3 {
@@ -445,24 +420,20 @@ a {
 }
 
 #image-date {
-
 	font-weight: 300;
 	font-size: 15px;
 	font-style: italic;
 	margin-top: -1px;
 }
 
-#article-text {
-
-}
-
 #article-text h3 {
 	margin-top: ;
-	margin-left: 30px ;
+	margin-left: 30px;
 	margin-bottom: 0px;
 	margin-right: 25px;
 	font-weight: 600;
 	font-size: 30px;
+	text-transform: capitalize;
 }
 
 #article-date {
@@ -471,7 +442,6 @@ a {
 	font-size: 15px;
 	font-style: italic;
 	margin-top: -1px;
-
 }
 
 #article-text p {
@@ -498,8 +468,3 @@ a {
 	color: #16a085;
 	text-decoration: underline;
 }
-
-
-
-
-
